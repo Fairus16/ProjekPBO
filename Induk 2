@@ -1,0 +1,25 @@
+// Kelas Induk Kedua
+class Parent2 {
+    private String description;
+
+    public Parent2(String description) {
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void showDescription() {
+        System.out.println("Parent2 Description: " + description);
+    }
+
+    // Method overloading
+    public void showDescription(String message) {
+        System.out.println(message + ": " + description);
+    }
+}
