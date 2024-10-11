@@ -1,0 +1,23 @@
+public class Child extends Parent1 {
+    private String childAttribute;
+
+    public Child(String name, String childAttribute) {
+        super(name);  // Memanggil constructor Parent1
+        this.childAttribute = childAttribute;
+    }
+
+    public String getChildAttribute() {
+        return childAttribute;
+    }
+
+    public void setChildAttribute(String childAttribute) {
+        this.childAttribute = childAttribute;
+    }
+
+    // Method overriding
+    @Override
+    public void showInfo() {
+        super.showInfo();
+        System.out.println("Child Attribute: " + childAttribute);
+    }
+}
