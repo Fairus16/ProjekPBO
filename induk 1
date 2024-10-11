@@ -1,5 +1,4 @@
-// Kelas Induk Pertama
-class Parent1 {
+public class Parent1 {
     private String name;
 
     public Parent1(String name) {
@@ -20,6 +19,6 @@ class Parent1 {
 
     // Method overloading
     public void showInfo(String message) {
-        System.out.println(message + ": " + name);
-    }
+        System.out.println(message + ": " + name);
+    }
 }
