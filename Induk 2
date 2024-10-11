@@ -1,5 +1,4 @@
-// Kelas Induk Kedua
-class Parent2 {
+public class Parent2 {
     private String description;
 
     public Parent2(String description) {
@@ -21,5 +20,5 @@ class Parent2 {
     // Method overloading
     public void showDescription(String message) {
         System.out.println(message + ": " + description);
-    }
+    }
 }
