@@ -1,0 +1,25 @@
+// Kelas Induk Pertama
+class Parent1 {
+    private String name;
+
+    public Parent1(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void showInfo() {
+        System.out.println("Parent1 Name: " + name);
+    }
+
+    // Method overloading
+    public void showInfo(String message) {
+        System.out.println(message + ": " + name);
+    }
+}
